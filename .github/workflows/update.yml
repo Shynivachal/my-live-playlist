@@ -2,7 +2,7 @@ name: Update YouTube Live Stream
 
 on:
   schedule:
-    - cron: '*/30 * * * *'  # every 30 mins
+    - cron: '0 */6 * * *'  # every 6 hours
   workflow_dispatch:
 
 jobs:
@@ -18,10 +18,18 @@ jobs:
 
     - name: Get M3U8 URL and write to playlist.m3u
       run: |
-        stream_url=$(yt-dlp -g -f "best[ext=m3u8]" https://www.youtube.com/watch?v=Ko18SgceYX8)
-        echo "#EXTM3U" > playlist.m3u
-        echo "#EXTINF:-1,YouTube Live" >> playlist.m3u
-        echo "$stream_url" >> playlist.m3u
+        stream_url=$(yt-dlp -g -f "best[ext=m3u8]/bestvideo[ext=m3u8]/m3u8" https://www.youtube.com/watch?v=Ko18SgceYX8)
+        
+        # Check if we got a valid streaming URL (should contain manifest or m3u8, and not be the original YouTube URL)
+        if [[ $stream_url == *"manifest"* ]] || [[ $stream_url == *".m3u8"* ]] && [[ $stream_url != *"youtube.com"* ]]; then
+          echo "#EXTM3U" > playlist.m3u
+          echo "#EXTINF:-1,YouTube Live" >> playlist.m3u
+          echo "$stream_url" >> playlist.m3u
+          echo "Successfully extracted streaming URL"
+        else
+          echo "Failed to extract streaming URL. Got: $stream_url"
+          exit 1
+        fi
 
     - name: Commit and Push
       run: |
