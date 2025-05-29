@@ -2,7 +2,7 @@ name: Update YouTube Live Stream
 
 on:
   schedule:
-    - cron: '0 */6 * * *'  # every 6 hours
+    - cron: '0 * * * *'  # every 1 hour
   workflow_dispatch:
 
 jobs:
@@ -18,7 +18,17 @@ jobs:
 
     - name: Get M3U8 URL and write to playlist.m3u
       run: |
-        stream_url=$(yt-dlp -g -f "best[ext=m3u8]/bestvideo[ext=m3u8]/m3u8" https://www.youtube.com/watch?v=Ko18SgceYX8)
+        # Try multiple approaches to avoid bot detection
+        stream_url=$(yt-dlp -g -f "best[ext=m3u8]/bestvideo[ext=m3u8]/m3u8" \
+          --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" \
+          --sleep-interval 1 \
+          --max-sleep-interval 3 \
+          --extractor-args "youtube:player_client=web" \
+          https://www.youtube.com/watch?v=Ko18SgceYX8) || \
+        stream_url=$(yt-dlp -g -f "m3u8" \
+          --user-agent "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36" \
+          --extractor-args "youtube:player_client=android,web" \
+          https://www.youtube.com/watch?v=Ko18SgceYX8)
         
         # Check if we got a valid streaming URL (should contain manifest or m3u8, and not be the original YouTube URL)
         if [[ $stream_url == *"manifest"* ]] || [[ $stream_url == *".m3u8"* ]] && [[ $stream_url != *"youtube.com"* ]]; then
