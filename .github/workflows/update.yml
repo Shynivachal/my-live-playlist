@@ -1,55 +1,35 @@
-name: Update YouTube Live Stream
+name: YouTube M3U8 Extractor Auto Update
 
 on:
   schedule:
-    - cron: '0 * * * *'  # every 1 hour
-  workflow_dispatch:
+    - cron: '*/15 * * * *'  # Runs every 15 minutes (GitHub limit)
+  workflow_dispatch:        # Allow manual run from GitHub UI
 
 jobs:
-  update:
+  run-extractor:
     runs-on: ubuntu-latest
 
     steps:
-    - name: Checkout Repo
+    - name: 📥 Checkout code
       uses: actions/checkout@v3
 
-    - name: Install yt-dlp
-      run: pip install -U yt-dlp
+    - name: 🐍 Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.x'
 
-    - name: Get M3U8 URL and write to playlist.m3u
+    - name: 📦 Install dependencies
       run: |
-        # Try multiple approaches to avoid bot detection
-        stream_url=$(yt-dlp -g -f "best[ext=m3u8]/bestvideo[ext=m3u8]/m3u8" \
-          --cookies-from-browser firefox \
-          --user-agent "Mozilla/5.0 (X11; Linux x86_64; rv:91.0) Gecko/20100101 Firefox/91.0" \
-          --sleep-interval 1 \
-          --max-sleep-interval 3 \
-          https://www.youtube.com/watch?v=Ko18SgceYX8) || \
-        stream_url=$(yt-dlp -g -f "best[ext=m3u8]/bestvideo[ext=m3u8]/m3u8" \
-          --cookies-from-browser chrome \
-          --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" \
-          --extractor-args "youtube:player_client=web" \
-          https://www.youtube.com/watch?v=Ko18SgceYX8) || \
-        stream_url=$(yt-dlp -g -f "m3u8" \
-          --user-agent "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36" \
-          --extractor-args "youtube:player_client=android,web" \
-          https://www.youtube.com/watch?v=Ko18SgceYX8)
-        
-        # Check if we got a valid streaming URL (should contain manifest or m3u8, and not be the original YouTube URL)
-        if [[ $stream_url == *"manifest"* ]] || [[ $stream_url == *".m3u8"* ]] && [[ $stream_url != *"youtube.com"* ]]; then
-          echo "#EXTM3U" > playlist.m3u
-          echo "#EXTINF:-1,YouTube Live" >> playlist.m3u
-          echo "$stream_url" >> playlist.m3u
-          echo "Successfully extracted streaming URL"
-        else
-          echo "Failed to extract streaming URL. Got: $stream_url"
-          exit 1
-        fi
+        python -m pip install --upgrade pip
+        pip install yt-dlp requests
 
-    - name: Commit and Push
+    - name: 🔐 Setup cookies file (if required)
       run: |
-        git config user.name "github-actions"
-        git config user.email "actions@github.com"
-        git add playlist.m3u
-        git commit -m "Update M3U with latest YouTube Live stream" || echo "No changes to commit"
-        git push
+        echo "${{ secrets.YOUTUBE_COOKIES }}" | base64 -d > cookies.txt
+      if: ${{ secrets.YOUTUBE_COOKIES != '' }}
+
+    - name: 🚀 Run extractor script
+      env:
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}  # Automatically provided by GitHub Actions
+      run: |
+        Ytdlproject.py
