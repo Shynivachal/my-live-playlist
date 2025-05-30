@@ -1,0 +1,287 @@
+#!/usr/bin/env python3
+"""
+YouTube Live M3U8 URL Extractor and GitHub Auto-Updater
+Extracts M3U8 streaming URLs from YouTube live streams and updates GitHub repository
+Supports both direct live URLs and channel URLs
+"""
+
+import os
+import sys
+import json
+import time
+import subprocess
+from datetime import datetime
+import yt_dlp
+import requests
+import re
+
+# Configuration
+CONFIG = {
+    'youtube_sources': [
+        'https://youtube.com/@asianetnews',
+        'https://www.youtube.com/live/Ko18SgceYX8',
+        # Add more YouTube channels or live URLs here
+    ],
+    'github': {
+        'username': 'your_github_username',
+        'token': 'your_github_personal_access_token',  # GitHub Personal Access Token
+        'repo': 'your_repo_name',
+        'file_path': 'playlist.m3u',  # Path to your M3U file in repo
+        'branch': 'main'
+    },
+    'cookies_file': 'cookies.txt',  # Path to your cookies file
+    'update_interval': 300,  # Update every 5 minutes
+    'max_retries': 3,
+    'quality_preference': ['best', 'worst']  # Try best quality first, fallback to worst
+}
+
+class YouTubeM3U8Extractor:
+    def __init__(self):
+        self.setup_yt_dlp()
+        self.live_streams = {}
+    
+    def setup_yt_dlp(self):
+        """Configure yt-dlp options"""
+        self.ydl_opts = {
+            'quiet': False,
+            'no_warnings': False,
+            'extract_flat': False,
+            # Authentication options (multiple methods)
+            'cookiefile': CONFIG['cookies_file'] if os.path.exists(CONFIG['cookies_file']) else None,
+            # If cookies don't exist, try OAuth
+            'username': 'oauth' if not os.path.exists(CONFIG['cookies_file']) else None,
+            'password': '' if not os.path.exists(CONFIG['cookies_file']) else None,
+            # Anti-detection options
+            'sleep_interval': 3,
+            'max_sleep_interval': 10,
+            'user_agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
+            # Additional options for live streams
+            'live_from_start': True,
+            'wait_for_video': (1, 30),
+            'ignoreerrors': True,
+        }
+    
+    def get_live_streams_from_channel(self, channel_url):
+        """Get all live streams from a YouTube channel"""
+        try:
+            print(f"Checking channel: {channel_url}")
+            
+            # Extract channel info
+            with yt_dlp.YoutubeDL({**self.ydl_opts, 'extract_flat': True}) as ydl:
+                channel_info = ydl.extract_info(f"{channel_url}/live", download=False)
+                
+                if not channel_info:
+                    print(f"No live streams found for {channel_url}")
+                    return []
+                
+                live_streams = []
+                
+                # Handle single live stream
+                if channel_info.get('_type') != 'playlist':
+                    if channel_info.get('is_live', False):
+                        live_streams.append({
+                            'url': channel_info.get('webpage_url'),
+                            'title': channel_info.get('title', 'Live Stream'),
+                            'id': channel_info.get('id')
+                        })
+                else:
+                    # Handle multiple streams (playlist)
+                    entries = channel_info.get('entries', [])
+                    for entry in entries:
+                        if entry and entry.get('is_live', False):
+                            live_streams.append({
+                                'url': entry.get('url') or f"https://youtube.com/watch?v={entry.get('id')}",
+                                'title': entry.get('title', 'Live Stream'),
+                                'id': entry.get('id')
+                            })
+                
+                return live_streams
+                
+        except Exception as e:
+            print(f"Error checking channel {channel_url}: {str(e)}")
+            return []
+    
+    def extract_m3u8_url(self, youtube_url, title="Unknown"):
+        """Extract M3U8 URL from YouTube live stream"""
+        for attempt in range(CONFIG['max_retries']):
+            try:
+                print(f"Attempt {attempt + 1}: Extracting M3U8 from {title}")
+                
+                with yt_dlp.YoutubeDL(self.ydl_opts) as ydl:
+                    info = ydl.extract_info(youtube_url, download=False)
+                    
+                    if not info.get('is_live', False):
+                        print(f"Stream is not live: {title}")
+                        return None
+                    
+                    # Look for M3U8 format
+                    formats = info.get('formats', [])
+                    m3u8_urls = []
+                    
+                    for fmt in formats:
+                        url = fmt.get('url', '')
+                        protocol = fmt.get('protocol', '')
+                        ext = fmt.get('ext', '')
+                        
+                        # Check for M3U8 formats
+                        if (protocol == 'm3u8_native' or 
+                            ext == 'm3u8' or 
+                            'm3u8' in url.lower() or
+                            fmt.get('format_note') == 'HLS'):
+                            
+                            m3u8_urls.append({
+                                'url': url,
+                                'quality': fmt.get('height', 0),
+                                'format_id': fmt.get('format_id', ''),
+                                'note': fmt.get('format_note', '')
+                            })
+                    
+                    if m3u8_urls:
+                        # Sort by quality (highest first)
+                        m3u8_urls.sort(key=lambda x: x['quality'], reverse=True)
+                        best_url = m3u8_urls[0]['url']
+                        print(f"Found M3U8 URL for {title}: {fmt.get('format_note', 'Unknown quality')}")
+                        return best_url
+                    else:
+                        print(f"No M3U8 URL found for {title}")
+                        return None
+                        
+            except Exception as e:
+                print(f"Attempt {attempt + 1} failed for {title}: {str(e)}")
+                if attempt < CONFIG['max_retries'] - 1:
+                    time.sleep(5)
+                    continue
+                else:
+                    print(f"All attempts failed for {title}")
+                    return None
+        
+        return None
+    
+    def generate_m3u_content(self):
+        """Generate M3U playlist content"""
+        m3u_content = "#EXTM3U\n"
+        
+        for source in CONFIG['youtube_sources']:
+            if '@' in source or '/c/' in source or '/channel/' in source:
+                # It's a channel URL
+                live_streams = self.get_live_streams_from_channel(source)
+                
+                for stream in live_streams:
+                    m3u8_url = self.extract_m3u8_url(stream['url'], stream['title'])
+                    if m3u8_url:
+                        # Clean title for M3U format
+                        clean_title = re.sub(r'[^\w\s-]', '', stream['title']).strip()
+                        m3u_content += f"#EXTINF:-1,{clean_title}\n"
+                        m3u_content += f"{m3u8_url}\n"
+                        
+            else:
+                # It's a direct live URL
+                m3u8_url = self.extract_m3u8_url(source)
+                if m3u8_url:
+                    m3u_content += f"#EXTINF:-1,YouTube Live Stream\n"
+                    m3u_content += f"{m3u8_url}\n"
+        
+        return m3u_content
+    
+    def update_github_file(self, content):
+        """Update M3U file on GitHub"""
+        try:
+            github_api_url = f"https://api.github.com/repos/{CONFIG['github']['username']}/{CONFIG['github']['repo']}/contents/{CONFIG['github']['file_path']}"
+            
+            headers = {
+                'Authorization': f"token {CONFIG['github']['token']}",
+                'Accept': 'application/vnd.github.v3+json',
+                'User-Agent': 'Python-M3U-Updater'
+            }
+            
+            # Get current file to get SHA (required for updates)
+            response = requests.get(github_api_url, headers=headers)
+            
+            if response.status_code == 200:
+                current_file = response.json()
+                sha = current_file['sha']
+            else:
+                sha = None  # File doesn't exist yet
+            
+            # Prepare update payload
+            import base64
+            encoded_content = base64.b64encode(content.encode('utf-8')).decode('utf-8')
+            
+            payload = {
+                'message': f'Update M3U playlist - {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}',
+                'content': encoded_content,
+                'branch': CONFIG['github']['branch']
+            }
+            
+            if sha:
+                payload['sha'] = sha
+            
+            # Update file
+            update_response = requests.put(github_api_url, headers=headers, json=payload)
+            
+            if update_response.status_code in [200, 201]:
+                print("✅ Successfully updated GitHub repository!")
+                return True
+            else:
+                print(f"❌ Failed to update GitHub: {update_response.status_code}")
+                print(update_response.text)
+                return False
+                
+        except Exception as e:
+            print(f"❌ Error updating GitHub: {str(e)}")
+            return False
+
+def setup_cookies():
+    """Setup instructions for cookies"""
+    if not os.path.exists(CONFIG['cookies_file']):
+        print("🍪 Cookies file not found!")
+        print("\nTo set up cookies:")
+        print("1. Install browser extension 'Get cookies.txt LOCALLY'")
+        print("2. Go to YouTube and log in")
+        print("3. Click the extension and export cookies.txt")
+        print("4. Save it as 'cookies.txt' in this directory")
+        print("\nAlternatively, the script will try OAuth authentication...")
+        return False
+    return True
+
+def main():
+    """Main execution function"""
+    print("🚀 YouTube Live M3U8 Extractor Started")
+    print(f"⏰ Update interval: {CONFIG['update_interval']} seconds")
+    
+    # Setup cookies
+    setup_cookies()
+    
+    # Validate GitHub config
+    if not all([CONFIG['github']['username'], CONFIG['github']['token'], CONFIG['github']['repo']]):
+        print("❌ Please configure GitHub settings in CONFIG")
+        sys.exit(1)
+    
+    extractor = YouTubeM3U8Extractor()
+    
+    try:
+        while True:
+            print(f"\n📡 Starting update cycle at {datetime.now().strftime('%Y-%m-%d %H:%M:%S')}")
+            
+            # Generate M3U content
+            m3u_content = extractor.generate_m3u_content()
+            
+            if m3u_content.strip() != "#EXTM3U":
+                # Update GitHub
+                if extractor.update_github_file(m3u_content):
+                    print("✅ Update cycle completed successfully")
+                else:
+                    print("❌ Update cycle failed")
+            else:
+                print("⚠️  No live streams found")
+            
+            print(f"😴 Sleeping for {CONFIG['update_interval']} seconds...")
+            time.sleep(CONFIG['update_interval'])
+            
+    except KeyboardInterrupt:
+        print("\n🛑 Script stopped by user")
+    except Exception as e:
+        print(f"💥 Unexpected error: {str(e)}")
+
+if __name__ == "__main__":
+    main()
