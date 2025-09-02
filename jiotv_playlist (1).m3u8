@@ -1,0 +1,489 @@
+#EXTM3U x-tvg-url="http://localhost:5350/epg.xml.gz"
+#EXTINF:-1 tvg-id="143" tvg-name="CNBC TV18 Prime" tvg-logo="http://localhost:5350/jtvimage/CNBC_Tv18_Prime_HD.png" tvg-language="English" tvg-type="Business" group-title="Business - English", CNBC TV18 Prime
+http://localhost:5350/live/143.m3u8
+#EXTINF:-1 tvg-id="146" tvg-name="History TV18 HD" tvg-logo="http://localhost:5350/jtvimage/History_HD.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", History TV18 HD
+http://localhost:5350/live/146.m3u8
+#EXTINF:-1 tvg-id="151" tvg-name="Movies Now HD" tvg-logo="http://localhost:5350/jtvimage/Movies_Now_HD.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", Movies Now HD
+http://localhost:5350/live/151.m3u8
+#EXTINF:-1 tvg-id="155" tvg-name="Sony Ten 5 HD" tvg-logo="http://localhost:5350/jtvimage/Six_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Sony Ten 5 HD
+http://localhost:5350/live/155.m3u8
+#EXTINF:-1 tvg-id="162" tvg-name="Sony Ten 1 HD" tvg-logo="http://localhost:5350/jtvimage/Ten_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Sony Ten 1 HD
+http://localhost:5350/live/162.m3u8
+#EXTINF:-1 tvg-id="164" tvg-name="Travelxp HD" tvg-logo="http://localhost:5350/jtvimage/Travel_XP_HD.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Travelxp HD
+http://localhost:5350/live/164.m3u8
+#EXTINF:-1 tvg-id="180" tvg-name="Asianet News" tvg-logo="http://localhost:5350/jtvimage/Asianet_News.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Asianet News
+http://localhost:5350/live/180.m3u8
+#EXTINF:-1 tvg-id="193" tvg-name="CNN" tvg-logo="http://localhost:5350/jtvimage/CNN.png" tvg-language="English" tvg-type="News" group-title="News - English", CNN
+http://localhost:5350/live/193.m3u8
+#EXTINF:-1 tvg-id="212" tvg-name="ET Now" tvg-logo="http://localhost:5350/jtvimage/ET_Now.png" tvg-language="English" tvg-type="Business" group-title="Business - English", ET Now
+http://localhost:5350/live/212.m3u8
+#EXTINF:-1 tvg-id="242" tvg-name="Discovery" tvg-logo="http://localhost:5350/jtvimage/Discovery_Channel_English.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", Discovery
+http://localhost:5350/live/242.m3u8
+#EXTINF:-1 tvg-id="255" tvg-name="NDTV 24x7" tvg-logo="http://localhost:5350/jtvimage/NDTV_24x7.png" tvg-language="English" tvg-type="News" group-title="News - English", NDTV 24x7
+http://localhost:5350/live/255.m3u8
+#EXTINF:-1 tvg-id="259" tvg-name="NDTV Profit" tvg-logo="http://localhost:5350/jtvimage/NDTV_Profit.png" tvg-language="English" tvg-type="Business" group-title="Business - English", NDTV Profit
+http://localhost:5350/live/259.m3u8
+#EXTINF:-1 tvg-id="286" tvg-name="Animal Planet HD World" tvg-logo="http://localhost:5350/jtvimage/Animal_Planet_HD.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", Animal Planet HD World
+http://localhost:5350/live/286.m3u8
+#EXTINF:-1 tvg-id="383" tvg-name="Times NOW" tvg-logo="http://localhost:5350/jtvimage/Times_NOW.png" tvg-language="English" tvg-type="News" group-title="News - English", Times NOW
+http://localhost:5350/live/383.m3u8
+#EXTINF:-1 tvg-id="400" tvg-name="PM e Vidya 01" tvg-logo="http://localhost:5350/jtvimage/evidya_1.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 01
+http://localhost:5350/live/400.m3u8
+#EXTINF:-1 tvg-id="401" tvg-name="Swayam Prabha 19" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_19.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 19
+http://localhost:5350/live/401.m3u8
+#EXTINF:-1 tvg-id="402" tvg-name="PM e Vidya 02" tvg-logo="http://localhost:5350/jtvimage/evidya_2.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 02
+http://localhost:5350/live/402.m3u8
+#EXTINF:-1 tvg-id="403" tvg-name="Swayam Prabha 20" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_20.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 20
+http://localhost:5350/live/403.m3u8
+#EXTINF:-1 tvg-id="404" tvg-name="PM e Vidya 07" tvg-logo="http://localhost:5350/jtvimage/evidya_7.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 07
+http://localhost:5350/live/404.m3u8
+#EXTINF:-1 tvg-id="405" tvg-name="PM e Vidya 03" tvg-logo="http://localhost:5350/jtvimage/evidya_3.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 03
+http://localhost:5350/live/405.m3u8
+#EXTINF:-1 tvg-id="406" tvg-name="PM e Vidya 04" tvg-logo="http://localhost:5350/jtvimage/evidya_4.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 04
+http://localhost:5350/live/406.m3u8
+#EXTINF:-1 tvg-id="407" tvg-name="PM e Vidya 05" tvg-logo="http://localhost:5350/jtvimage/evidya_5.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 05
+http://localhost:5350/live/407.m3u8
+#EXTINF:-1 tvg-id="408" tvg-name="PM e Vidya 06" tvg-logo="http://localhost:5350/jtvimage/evidya_6.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 06
+http://localhost:5350/live/408.m3u8
+#EXTINF:-1 tvg-id="409" tvg-name="PM e Vidya 08" tvg-logo="http://localhost:5350/jtvimage/_evidya_8.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 08
+http://localhost:5350/live/409.m3u8
+#EXTINF:-1 tvg-id="410" tvg-name="PM e Vidya 09" tvg-logo="http://localhost:5350/jtvimage/evidya_9.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 09
+http://localhost:5350/live/410.m3u8
+#EXTINF:-1 tvg-id="411" tvg-name="PM e Vidya 10" tvg-logo="http://localhost:5350/jtvimage/evidya_10.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 10
+http://localhost:5350/live/411.m3u8
+#EXTINF:-1 tvg-id="412" tvg-name="Wion" tvg-logo="http://localhost:5350/jtvimage/Wion.png" tvg-language="English" tvg-type="News" group-title="News - English", Wion
+http://localhost:5350/live/412.m3u8
+#EXTINF:-1 tvg-id="421" tvg-name="GOA 365" tvg-logo="http://localhost:5350/jtvimage/Goa365.png" tvg-language="English" tvg-type="News" group-title="News - English", GOA 365
+http://localhost:5350/live/421.m3u8
+#EXTINF:-1 tvg-id="463" tvg-name="Discovery HD World" tvg-logo="http://localhost:5350/jtvimage/Discovery_HD_World.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", Discovery HD World
+http://localhost:5350/live/463.m3u8
+#EXTINF:-1 tvg-id="465" tvg-name="Jaihind tv" tvg-logo="http://localhost:5350/jtvimage/Jaihind_tv.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Jaihind tv
+http://localhost:5350/live/465.m3u8
+#EXTINF:-1 tvg-id="477" tvg-name="MN+ HD" tvg-logo="http://localhost:5350/jtvimage/MNPLUS.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", MN+ HD
+http://localhost:5350/live/477.m3u8
+#EXTINF:-1 tvg-id="479" tvg-name="TLC HD" tvg-logo="http://localhost:5350/jtvimage/TLC_HD_World.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", TLC HD
+http://localhost:5350/live/479.m3u8
+#EXTINF:-1 tvg-id="489" tvg-name="CNBC TV18" tvg-logo="http://localhost:5350/jtvimage/CNBC_Tv_18.png" tvg-language="English" tvg-type="Business" group-title="Business - English", CNBC TV18
+http://localhost:5350/live/489.m3u8
+#EXTINF:-1 tvg-id="491" tvg-name="Mirror Now" tvg-logo="http://localhost:5350/jtvimage/Mirror_Now.png" tvg-language="English" tvg-type="News" group-title="News - English", Mirror Now
+http://localhost:5350/live/491.m3u8
+#EXTINF:-1 tvg-id="492" tvg-name="CNN NEWS 18" tvg-logo="http://localhost:5350/jtvimage/CNN_NEWS_18.png" tvg-language="English" tvg-type="News" group-title="News - English", CNN NEWS 18
+http://localhost:5350/live/492.m3u8
+#EXTINF:-1 tvg-id="493" tvg-name="India Today" tvg-logo="http://localhost:5350/jtvimage/India_Today.png" tvg-language="English" tvg-type="News" group-title="News - English", India Today
+http://localhost:5350/live/493.m3u8
+#EXTINF:-1 tvg-id="494" tvg-name="AL Jazeera" tvg-logo="http://localhost:5350/jtvimage/AL_Jazeera.png" tvg-language="English" tvg-type="News" group-title="News - English", AL Jazeera
+http://localhost:5350/live/494.m3u8
+#EXTINF:-1 tvg-id="495" tvg-name="News X" tvg-logo="http://localhost:5350/jtvimage/News_X.png" tvg-language="English" tvg-type="News" group-title="News - English", News X
+http://localhost:5350/live/495.m3u8
+#EXTINF:-1 tvg-id="496" tvg-name="dw" tvg-logo="http://localhost:5350/jtvimage/dw.png" tvg-language="English" tvg-type="News" group-title="News - English", dw
+http://localhost:5350/live/496.m3u8
+#EXTINF:-1 tvg-id="514" tvg-name="Sony Ten 1" tvg-logo="http://localhost:5350/jtvimage/Ten_1.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Sony Ten 1
+http://localhost:5350/live/514.m3u8
+#EXTINF:-1 tvg-id="523" tvg-name="Ten 2" tvg-logo="http://localhost:5350/jtvimage/Ten_2.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Ten 2
+http://localhost:5350/live/523.m3u8
+#EXTINF:-1 tvg-id="525" tvg-name="Sony Ten 5" tvg-logo="http://localhost:5350/jtvimage/Sony_Six_SD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Sony Ten 5
+http://localhost:5350/live/525.m3u8
+#EXTINF:-1 tvg-id="541" tvg-name="Discovery Turbo" tvg-logo="http://localhost:5350/jtvimage/Discovery_Turbo.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", Discovery Turbo
+http://localhost:5350/live/541.m3u8
+#EXTINF:-1 tvg-id="544" tvg-name="Nick Junior" tvg-logo="http://localhost:5350/jtvimage/Nick_Junior.png" tvg-language="English" tvg-type="Kids" group-title="Kids - English", Nick Junior
+http://localhost:5350/live/544.m3u8
+#EXTINF:-1 tvg-id="551" tvg-name="TEST14 HD" tvg-logo="http://localhost:5350/jtvimage/TEST14_HD.png" tvg-language="English" tvg-type="Kids" group-title="Kids - English", TEST14 HD
+http://localhost:5350/live/551.m3u8
+#EXTINF:-1 tvg-id="556" tvg-name="Kochu TV" tvg-logo="http://localhost:5350/jtvimage/Kochu_TV.png" tvg-language="Malayalam" tvg-type="Kids" group-title="Kids - Malayalam", Kochu TV
+http://localhost:5350/live/556.m3u8
+#EXTINF:-1 tvg-id="560" tvg-name="GOOD TiMES" tvg-logo="http://localhost:5350/jtvimage/NDTV_Good_Times.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", GOOD TiMES
+http://localhost:5350/live/560.m3u8
+#EXTINF:-1 tvg-id="563" tvg-name="Kaumudy TV" tvg-logo="http://localhost:5350/jtvimage/Kaumudy_TV.png" tvg-language="Malayalam" tvg-type="Lifestyle" group-title="Lifestyle - Malayalam", Kaumudy TV
+http://localhost:5350/live/563.m3u8
+#EXTINF:-1 tvg-id="567" tvg-name="Animal Planet English" tvg-logo="http://localhost:5350/jtvimage/Animal_Planet_Eng.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", Animal Planet English
+http://localhost:5350/live/567.m3u8
+#EXTINF:-1 tvg-id="568" tvg-name="Discovery Science" tvg-logo="http://localhost:5350/jtvimage/Discovery_Science.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", Discovery Science
+http://localhost:5350/live/568.m3u8
+#EXTINF:-1 tvg-id="574" tvg-name="TLC English" tvg-logo="http://localhost:5350/jtvimage/TLC_English.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", TLC English
+http://localhost:5350/live/574.m3u8
+#EXTINF:-1 tvg-id="606" tvg-name="Shalom" tvg-logo="http://localhost:5350/jtvimage/Shalom.png" tvg-language="Malayalam" tvg-type="Devotional" group-title="Devotional - Malayalam", Shalom
+http://localhost:5350/live/606.m3u8
+#EXTINF:-1 tvg-id="634" tvg-name="Flower TV" tvg-logo="http://localhost:5350/jtvimage/Flower_TV.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Flower TV
+http://localhost:5350/live/634.m3u8
+#EXTINF:-1 tvg-id="648" tvg-name="Mazhavil Manorama" tvg-logo="http://localhost:5350/jtvimage/Mazhavil_Manorama.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Mazhavil Manorama
+http://localhost:5350/live/648.m3u8
+#EXTINF:-1 tvg-id="650" tvg-name="Raj News Malayalam" tvg-logo="http://localhost:5350/jtvimage/Raj_News_Malayalam.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Raj News Malayalam
+http://localhost:5350/live/650.m3u8
+#EXTINF:-1 tvg-id="656" tvg-name="News 9" tvg-logo="http://localhost:5350/jtvimage/News9.png" tvg-language="English" tvg-type="News" group-title="News - English", News 9
+http://localhost:5350/live/656.m3u8
+#EXTINF:-1 tvg-id="662" tvg-name="Manorama News" tvg-logo="http://localhost:5350/jtvimage/Manorama_News.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Manorama News
+http://localhost:5350/live/662.m3u8
+#EXTINF:-1 tvg-id="699" tvg-name="DD Malayalam" tvg-logo="http://localhost:5350/jtvimage/DD_Malayalam.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", DD Malayalam
+http://localhost:5350/live/699.m3u8
+#EXTINF:-1 tvg-id="710" tvg-name="Kairali TV" tvg-logo="http://localhost:5350/jtvimage/Kairali_TV.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Kairali TV
+http://localhost:5350/live/710.m3u8
+#EXTINF:-1 tvg-id="723" tvg-name="Amrita TV" tvg-logo="http://localhost:5350/jtvimage/Amrita_TV.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Amrita TV
+http://localhost:5350/live/723.m3u8
+#EXTINF:-1 tvg-id="725" tvg-name="Kairali News" tvg-logo="http://localhost:5350/jtvimage/Kairali_People_TV.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Kairali News
+http://localhost:5350/live/725.m3u8
+#EXTINF:-1 tvg-id="731" tvg-name="Kairali WE TV" tvg-logo="http://localhost:5350/jtvimage/Kairali_WE_TV.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Kairali WE TV
+http://localhost:5350/live/731.m3u8
+#EXTINF:-1 tvg-id="739" tvg-name="Raj Music Malayalam" tvg-logo="http://localhost:5350/jtvimage/Raj_Music_Malayalam.png" tvg-language="Malayalam" tvg-type="Music" group-title="Music - Malayalam", Raj Music Malayalam
+http://localhost:5350/live/739.m3u8
+#EXTINF:-1 tvg-id="747" tvg-name="Surya Music" tvg-logo="http://localhost:5350/jtvimage/Surya_Music.png" tvg-language="Malayalam" tvg-type="Music" group-title="Music - Malayalam", Surya Music
+http://localhost:5350/live/747.m3u8
+#EXTINF:-1 tvg-id="764" tvg-name="Channel News Asia International" tvg-logo="http://localhost:5350/jtvimage/Channel_News_Asia_International.png" tvg-language="English" tvg-type="News" group-title="News - English", Channel News Asia International
+http://localhost:5350/live/764.m3u8
+#EXTINF:-1 tvg-id="780" tvg-name="Mathrubhumi News" tvg-logo="http://localhost:5350/jtvimage/Mathrubhumi_News.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Mathrubhumi News
+http://localhost:5350/live/780.m3u8
+#EXTINF:-1 tvg-id="786" tvg-name="Kappa TV" tvg-logo="http://localhost:5350/jtvimage/Kappa_TV.png" tvg-language="Malayalam" tvg-type="Music" group-title="Music - Malayalam", Kappa TV
+http://localhost:5350/live/786.m3u8
+#EXTINF:-1 tvg-id="787" tvg-name="CVR English" tvg-logo="http://localhost:5350/jtvimage/CVR_English.png" tvg-language="English" tvg-type="News" group-title="News - English", CVR English
+http://localhost:5350/live/787.m3u8
+#EXTINF:-1 tvg-id="810" tvg-name="Janam TV" tvg-logo="http://localhost:5350/jtvimage/Janam_TV.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Janam TV
+http://localhost:5350/live/810.m3u8
+#EXTINF:-1 tvg-id="837" tvg-name="Euro News" tvg-logo="http://localhost:5350/jtvimage/Euro_News.png" tvg-language="English" tvg-type="News" group-title="News - English", Euro News
+http://localhost:5350/live/837.m3u8
+#EXTINF:-1 tvg-id="842" tvg-name="Jeevan TV" tvg-logo="http://localhost:5350/jtvimage/Jeevan_TV.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Jeevan TV
+http://localhost:5350/live/842.m3u8
+#EXTINF:-1 tvg-id="844" tvg-name="Mazhavil Manorama HD" tvg-logo="http://localhost:5350/jtvimage/Mazavali_Manorama_HD.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Mazhavil Manorama HD
+http://localhost:5350/live/844.m3u8
+#EXTINF:-1 tvg-id="858" tvg-name="Republic TV" tvg-logo="http://localhost:5350/jtvimage/Republic_TV.png" tvg-language="English" tvg-type="News" group-title="News - English", Republic TV
+http://localhost:5350/live/858.m3u8
+#EXTINF:-1 tvg-id="866" tvg-name="Jio Exclusive HD" tvg-logo="http://localhost:5350/jtvimage/Jio_Exclusive.png" tvg-language="English" tvg-type="Entertainment" group-title="Entertainment - English", Jio Exclusive HD
+http://localhost:5350/live/866.m3u8
+#EXTINF:-1 tvg-id="875" tvg-name="Eurosport HD" tvg-logo="http://localhost:5350/jtvimage/Dsports_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Eurosport HD
+http://localhost:5350/live/875.m3u8
+#EXTINF:-1 tvg-id="876" tvg-name="Times Now World" tvg-logo="http://localhost:5350/jtvimage/Times_Now_HD.png" tvg-language="English" tvg-type="News" group-title="News - English", Times Now World
+http://localhost:5350/live/876.m3u8
+#EXTINF:-1 tvg-id="877" tvg-name="MNX HD" tvg-logo="http://localhost:5350/jtvimage/Movies_Now2_HD.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", MNX HD
+http://localhost:5350/live/877.m3u8
+#EXTINF:-1 tvg-id="885" tvg-name="TV5 Monde" tvg-logo="http://localhost:5350/jtvimage/TV_5_Monde.png" tvg-language="English" tvg-type="News" group-title="News - English", TV5 Monde
+http://localhost:5350/live/885.m3u8
+#EXTINF:-1 tvg-id="889" tvg-name="Jio Sports HD" tvg-logo="http://localhost:5350/jtvimage/Jio_Sports.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Jio Sports HD
+http://localhost:5350/live/889.m3u8
+#EXTINF:-1 tvg-id="890" tvg-name="RIL AGM 2025" tvg-logo="http://localhost:5350/jtvimage/RIL_AGM_2025.png" tvg-language="English" tvg-type="Business" group-title="Business - English", RIL AGM 2025
+http://localhost:5350/live/890.m3u8
+#EXTINF:-1 tvg-id="891" tvg-name="Sony Ten 2 HD" tvg-logo="http://localhost:5350/jtvimage/Ten2_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Sony Ten 2 HD
+http://localhost:5350/live/891.m3u8
+#EXTINF:-1 tvg-id="900" tvg-name="Surya HD" tvg-logo="http://localhost:5350/jtvimage/Surya_HD.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Surya HD
+http://localhost:5350/live/900.m3u8
+#EXTINF:-1 tvg-id="907" tvg-name="GoodNews Channel" tvg-logo="http://localhost:5350/jtvimage/GoodNews_Channel.png" tvg-language="English" tvg-type="News" group-title="News - English", GoodNews Channel
+http://localhost:5350/live/907.m3u8
+#EXTINF:-1 tvg-id="910" tvg-name="Media One TV" tvg-logo="http://localhost:5350/jtvimage/Media_One_TV.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Media One TV
+http://localhost:5350/live/910.m3u8
+#EXTINF:-1 tvg-id="953" tvg-name="Propex TV" tvg-logo="http://localhost:5350/jtvimage/Propex_TV.png" tvg-language="Malayalam" tvg-type="Lifestyle" group-title="Lifestyle - Malayalam", Propex TV
+http://localhost:5350/live/953.m3u8
+#EXTINF:-1 tvg-id="965" tvg-name="News 18 Kerala" tvg-logo="http://localhost:5350/jtvimage/News_18_Kerala.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", News 18 Kerala
+http://localhost:5350/live/965.m3u8
+#EXTINF:-1 tvg-id="980" tvg-name="Swayam Prabha 01" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_01.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 01
+http://localhost:5350/live/980.m3u8
+#EXTINF:-1 tvg-id="981" tvg-name="Swayam Prabha 02" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_02.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 02
+http://localhost:5350/live/981.m3u8
+#EXTINF:-1 tvg-id="982" tvg-name="Swayam Prabha 03" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_03.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 03
+http://localhost:5350/live/982.m3u8
+#EXTINF:-1 tvg-id="983" tvg-name="Swayam Prabha 08" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_08.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 08
+http://localhost:5350/live/983.m3u8
+#EXTINF:-1 tvg-id="984" tvg-name="Swayam Prabha 04" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_04.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 04
+http://localhost:5350/live/984.m3u8
+#EXTINF:-1 tvg-id="985" tvg-name="Swayam Prabha 07" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_07.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 07
+http://localhost:5350/live/985.m3u8
+#EXTINF:-1 tvg-id="986" tvg-name="Swayam Prabha 05" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_05.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 05
+http://localhost:5350/live/986.m3u8
+#EXTINF:-1 tvg-id="987" tvg-name="Swayam Prabha 06" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_06.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 06
+http://localhost:5350/live/987.m3u8
+#EXTINF:-1 tvg-id="988" tvg-name="Swayam Prabha 09" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_09.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 09
+http://localhost:5350/live/988.m3u8
+#EXTINF:-1 tvg-id="989" tvg-name="Swayam Prabha 10" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_10.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 10
+http://localhost:5350/live/989.m3u8
+#EXTINF:-1 tvg-id="990" tvg-name="Swayam Prabha 11" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_11.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 11
+http://localhost:5350/live/990.m3u8
+#EXTINF:-1 tvg-id="991" tvg-name="Swayam Prabha 12" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_12.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 12
+http://localhost:5350/live/991.m3u8
+#EXTINF:-1 tvg-id="992" tvg-name="Swayam Prabha 13" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_13.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 13
+http://localhost:5350/live/992.m3u8
+#EXTINF:-1 tvg-id="993" tvg-name="Swayam Prabha 14" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_14.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 14
+http://localhost:5350/live/993.m3u8
+#EXTINF:-1 tvg-id="994" tvg-name="Swayam Prabha 16" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_16.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 16
+http://localhost:5350/live/994.m3u8
+#EXTINF:-1 tvg-id="995" tvg-name="Swayam Prabha 15" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_15.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 15
+http://localhost:5350/live/995.m3u8
+#EXTINF:-1 tvg-id="996" tvg-name="Swayam Prabha 17" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_17.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 17
+http://localhost:5350/live/996.m3u8
+#EXTINF:-1 tvg-id="997" tvg-name="Swayam Prabha 21" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_21.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 21
+http://localhost:5350/live/997.m3u8
+#EXTINF:-1 tvg-id="998" tvg-name="Swayam Prabha 22" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_22.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 22
+http://localhost:5350/live/998.m3u8
+#EXTINF:-1 tvg-id="999" tvg-name="Swayam Prabha 18" tvg-logo="http://localhost:5350/jtvimage/Swayam_Prabha_18.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swayam Prabha 18
+http://localhost:5350/live/999.m3u8
+#EXTINF:-1 tvg-id="1061" tvg-name="TEST5 HD" tvg-logo="http://localhost:5350/jtvimage/TEST5_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", TEST5 HD
+http://localhost:5350/live/1061.m3u8
+#EXTINF:-1 tvg-id="1066" tvg-name="The Q" tvg-logo="http://localhost:5350/jtvimage/TheQIndia.png" tvg-language="English" tvg-type="Entertainment" group-title="Entertainment - English", The Q
+http://localhost:5350/live/1066.m3u8
+#EXTINF:-1 tvg-id="1079" tvg-name="CN HD+ English" tvg-logo="http://localhost:5350/jtvimage/CN_HD_English.png" tvg-language="English" tvg-type="Kids" group-title="Kids - English", CN HD+ English
+http://localhost:5350/live/1079.m3u8
+#EXTINF:-1 tvg-id="1102" tvg-name="RDX Goa" tvg-logo="http://localhost:5350/jtvimage/RDX_News.png" tvg-language="English" tvg-type="News" group-title="News - English", RDX Goa
+http://localhost:5350/live/1102.m3u8
+#EXTINF:-1 tvg-id="1148" tvg-name="TEST8 HD" tvg-logo="http://localhost:5350/jtvimage/TEST8_HD.png" tvg-language="English" tvg-type="Shopping" group-title="Shopping - English", TEST8 HD
+http://localhost:5350/live/1148.m3u8
+#EXTINF:-1 tvg-id="1158" tvg-name="Colors Infinity HD" tvg-logo="http://localhost:5350/jtvimage/Colors_Infinity_HD.png" tvg-language="English" tvg-type="Entertainment" group-title="Entertainment - English", Colors Infinity HD
+http://localhost:5350/live/1158.m3u8
+#EXTINF:-1 tvg-id="1163" tvg-name="JioGames HD" tvg-logo="http://localhost:5350/jtvimage/Jio_Esports_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", JioGames HD
+http://localhost:5350/live/1163.m3u8
+#EXTINF:-1 tvg-id="1226" tvg-name="Nick HD+" tvg-logo="http://localhost:5350/jtvimage/Nick_HD_Plus.png" tvg-language="English" tvg-type="Kids" group-title="Kids - English", Nick HD+
+http://localhost:5350/live/1226.m3u8
+#EXTINF:-1 tvg-id="1232" tvg-name="Hi Dost!" tvg-logo="http://localhost:5350/jtvimage/Hi_Dost.png" tvg-language="English" tvg-type="Entertainment" group-title="Entertainment - English", Hi Dost!
+http://localhost:5350/live/1232.m3u8
+#EXTINF:-1 tvg-id="1240" tvg-name="TEST10 HD" tvg-logo="http://localhost:5350/jtvimage/TEST10_HD.png" tvg-language="English" tvg-type="News" group-title="News - English", TEST10 HD
+http://localhost:5350/live/1240.m3u8
+#EXTINF:-1 tvg-id="1250" tvg-name="Twenty Four News" tvg-logo="http://localhost:5350/jtvimage/TWENTY_FOUR_NEWS.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Twenty Four News
+http://localhost:5350/live/1250.m3u8
+#EXTINF:-1 tvg-id="1284" tvg-name="Vignesh TV" tvg-logo="http://localhost:5350/jtvimage/Vignesh_TV.PNG" tvg-language="Malayalam" tvg-type="Devotional" group-title="Devotional - Malayalam", Vignesh TV
+http://localhost:5350/live/1284.m3u8
+#EXTINF:-1 tvg-id="1294" tvg-name="Eurosport" tvg-logo="http://localhost:5350/jtvimage/Dsports.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Eurosport
+http://localhost:5350/live/1294.m3u8
+#EXTINF:-1 tvg-id="1315" tvg-name="HHDL" tvg-logo="http://localhost:5350/jtvimage/HHDL.png" tvg-language="English" tvg-type="Devotional" group-title="Devotional - English", HHDL
+http://localhost:5350/live/1315.m3u8
+#EXTINF:-1 tvg-id="1325" tvg-name="Colors Infinity SD" tvg-logo="http://localhost:5350/jtvimage/Colors_Infinity_SD.png" tvg-language="English" tvg-type="Entertainment" group-title="Entertainment - English", Colors Infinity SD
+http://localhost:5350/live/1325.m3u8
+#EXTINF:-1 tvg-id="1337" tvg-name="Top Tutor" tvg-logo="http://localhost:5350/jtvimage/Top_Tutor.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Top Tutor
+http://localhost:5350/live/1337.m3u8
+#EXTINF:-1 tvg-id="1338" tvg-name="RT TV" tvg-logo="http://localhost:5350/jtvimage/RT_TV.png" tvg-language="English" tvg-type="News" group-title="News - English", RT TV
+http://localhost:5350/live/1338.m3u8
+#EXTINF:-1 tvg-id="1340" tvg-name="Nick Malayalam" tvg-logo="http://localhost:5350/jtvimage/Nick_Malayalam.png" tvg-language="Malayalam" tvg-type="Kids" group-title="Kids - Malayalam", Nick Malayalam
+http://localhost:5350/live/1340.m3u8
+#EXTINF:-1 tvg-id="1344" tvg-name="Sonic Malayalam" tvg-logo="http://localhost:5350/jtvimage/Sonic_Malayalam.png" tvg-language="Malayalam" tvg-type="Kids" group-title="Kids - Malayalam", Sonic Malayalam
+http://localhost:5350/live/1344.m3u8
+#EXTINF:-1 tvg-id="1388" tvg-name="Goodness" tvg-logo="http://localhost:5350/jtvimage/Goodness_TV.png" tvg-language="Malayalam" tvg-type="Devotional" group-title="Devotional - Malayalam", Goodness
+http://localhost:5350/live/1388.m3u8
+#EXTINF:-1 tvg-id="1401" tvg-name="Romedy Now" tvg-logo="http://localhost:5350/jtvimage/Romedy_Now_HD.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", Romedy Now
+http://localhost:5350/live/1401.m3u8
+#EXTINF:-1 tvg-id="1405" tvg-name="NHK World Japan" tvg-logo="http://localhost:5350/jtvimage/NHK_World_Japan.png" tvg-language="English" tvg-type="News" group-title="News - English", NHK World Japan
+http://localhost:5350/live/1405.m3u8
+#EXTINF:-1 tvg-id="1408" tvg-name="Reporter TV" tvg-logo="http://localhost:5350/jtvimage/Reporter_TV.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Reporter TV
+http://localhost:5350/live/1408.m3u8
+#EXTINF:-1 tvg-id="1410" tvg-name="PM e Vidya 11" tvg-logo="http://localhost:5350/jtvimage/evidya_11.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 11
+http://localhost:5350/live/1410.m3u8
+#EXTINF:-1 tvg-id="1429" tvg-name="KITE VICTERS" tvg-logo="http://localhost:5350/jtvimage/KITE_Victers.png" tvg-language="Malayalam" tvg-type="Educational" group-title="Educational - Malayalam", KITE VICTERS
+http://localhost:5350/live/1429.m3u8
+#EXTINF:-1 tvg-id="1433" tvg-name="India Science" tvg-logo="http://localhost:5350/jtvimage/India_Science.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", India Science
+http://localhost:5350/live/1433.m3u8
+#EXTINF:-1 tvg-id="1447" tvg-name="TV Teacher" tvg-logo="http://localhost:5350/jtvimage/TV_Teacher.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", TV Teacher
+http://localhost:5350/live/1447.m3u8
+#EXTINF:-1 tvg-id="1455" tvg-name="Janapriyam" tvg-logo="http://localhost:5350/jtvimage/Janapriyam_News.png" tvg-language="Malayalam" tvg-type="Infotainment" group-title="Infotainment - Malayalam", Janapriyam
+http://localhost:5350/live/1455.m3u8
+#EXTINF:-1 tvg-id="1456" tvg-name="Lairik" tvg-logo="http://localhost:5350/jtvimage/Manipur_Educational_Channel.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Lairik
+http://localhost:5350/live/1456.m3u8
+#EXTINF:-1 tvg-id="1471" tvg-name="History TV18" tvg-logo="http://localhost:5350/jtvimage/History_TV18_SD.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", History TV18
+http://localhost:5350/live/1471.m3u8
+#EXTINF:-1 tvg-id="1514" tvg-name="Kannur One" tvg-logo="http://localhost:5350/jtvimage/Kannur_one.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Kannur One
+http://localhost:5350/live/1514.m3u8
+#EXTINF:-1 tvg-id="1521" tvg-name="Birla Brainiacs" tvg-logo="http://localhost:5350/jtvimage/Birla_Brainiacs.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Birla Brainiacs
+http://localhost:5350/live/1521.m3u8
+#EXTINF:-1 tvg-id="1529" tvg-name="MI TV" tvg-logo="http://localhost:5350/jtvimage/MI_TV.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", MI TV
+http://localhost:5350/live/1529.m3u8
+#EXTINF:-1 tvg-id="1532" tvg-name="PM e Vidya 12" tvg-logo="http://localhost:5350/jtvimage/evidya_12.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", PM e Vidya 12
+http://localhost:5350/live/1532.m3u8
+#EXTINF:-1 tvg-id="1542" tvg-name="Tute" tvg-logo="http://localhost:5350/jtvimage/Tute.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Tute
+http://localhost:5350/live/1542.m3u8
+#EXTINF:-1 tvg-id="1552" tvg-name="Malanadu TV" tvg-logo="http://localhost:5350/jtvimage/Malnadu_TV.png" tvg-language="Malayalam" tvg-type="Infotainment" group-title="Infotainment - Malayalam", Malanadu TV
+http://localhost:5350/live/1552.m3u8
+#EXTINF:-1 tvg-id="1593" tvg-name="Lifology" tvg-logo="http://localhost:5350/jtvimage/Lifology.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Lifology
+http://localhost:5350/live/1593.m3u8
+#EXTINF:-1 tvg-id="1598" tvg-name="FTV HD" tvg-logo="http://localhost:5350/jtvimage/FTV_HD.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", FTV HD
+http://localhost:5350/live/1598.m3u8
+#EXTINF:-1 tvg-id="1614" tvg-name="Omnicuris" tvg-logo="http://localhost:5350/jtvimage/Omnicuris.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Omnicuris
+http://localhost:5350/live/1614.m3u8
+#EXTINF:-1 tvg-id="1618" tvg-name="Real News Kerala" tvg-logo="http://localhost:5350/jtvimage/Real_News_Kerala.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Real News Kerala
+http://localhost:5350/live/1618.m3u8
+#EXTINF:-1 tvg-id="1643" tvg-name="Harvest TV 24x7" tvg-logo="http://localhost:5350/jtvimage/Harvest_TV_24x7.png" tvg-language="Malayalam" tvg-type="Devotional" group-title="Devotional - Malayalam", Harvest TV 24x7
+http://localhost:5350/live/1643.m3u8
+#EXTINF:-1 tvg-id="1644" tvg-name="Powervision TV" tvg-logo="http://localhost:5350/jtvimage/Powervision_TV.png" tvg-language="Malayalam" tvg-type="Devotional" group-title="Devotional - Malayalam", Powervision TV
+http://localhost:5350/live/1644.m3u8
+#EXTINF:-1 tvg-id="1662" tvg-name="Surya Comedy" tvg-logo="http://localhost:5350/jtvimage/Surya_Comedy.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Surya Comedy
+http://localhost:5350/live/1662.m3u8
+#EXTINF:-1 tvg-id="1666" tvg-name="Safari TV " tvg-logo="http://localhost:5350/jtvimage/Safari_TV.png" tvg-language="Malayalam" tvg-type="Infotainment" group-title="Infotainment - Malayalam", Safari TV 
+http://localhost:5350/live/1666.m3u8
+#EXTINF:-1 tvg-id="1672" tvg-name="Gyanvani 2" tvg-logo="http://localhost:5350/jtvimage/Gyanvani_2.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Gyanvani 2
+http://localhost:5350/live/1672.m3u8
+#EXTINF:-1 tvg-id="1675" tvg-name="ESG TV" tvg-logo="http://localhost:5350/jtvimage/ESG.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", ESG TV
+http://localhost:5350/live/1675.m3u8
+#EXTINF:-1 tvg-id="1690" tvg-name="BVTV" tvg-logo="http://localhost:5350/jtvimage/BVTV.png" tvg-language="Malayalam" tvg-type="Devotional" group-title="Devotional - Malayalam", BVTV
+http://localhost:5350/live/1690.m3u8
+#EXTINF:-1 tvg-id="1743" tvg-name="Hornbill TV" tvg-logo="http://localhost:5350/jtvimage/Hornbill_TV.png" tvg-language="English" tvg-type="News" group-title="News - English", Hornbill TV
+http://localhost:5350/live/1743.m3u8
+#EXTINF:-1 tvg-id="1754" tvg-name="Surya Movies" tvg-logo="http://localhost:5350/jtvimage/Surya_Movies.png" tvg-language="Malayalam" tvg-type="Movies" group-title="Movies - Malayalam", Surya Movies
+http://localhost:5350/live/1754.m3u8
+#EXTINF:-1 tvg-id="1780" tvg-name="HooplaKidz TV" tvg-logo="http://localhost:5350/jtvimage/Hoopla_Kids_TV.png" tvg-language="English" tvg-type="Kids" group-title="Kids - English", HooplaKidz TV
+http://localhost:5350/live/1780.m3u8
+#EXTINF:-1 tvg-id="1787" tvg-name="VISVAS" tvg-logo="http://localhost:5350/jtvimage/VISVAS.png" tvg-language="English" tvg-type="Devotional" group-title="Devotional - English", VISVAS
+http://localhost:5350/live/1787.m3u8
+#EXTINF:-1 tvg-id="1826" tvg-name="Swaralasika Sangeetalaya" tvg-logo="http://localhost:5350/jtvimage/Swarlasika.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", Swaralasika Sangeetalaya
+http://localhost:5350/live/1826.m3u8
+#EXTINF:-1 tvg-id="1855" tvg-name="NL TV" tvg-logo="http://localhost:5350/jtvimage/NL_TV.png" tvg-language="English" tvg-type="News" group-title="News - English", NL TV
+http://localhost:5350/live/1855.m3u8
+#EXTINF:-1 tvg-id="1890" tvg-name="Jio Sports 2 HD" tvg-logo="http://localhost:5350/jtvimage/Jio_Sports_2_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Jio Sports 2 HD
+http://localhost:5350/live/1890.m3u8
+#EXTINF:-1 tvg-id="1966" tvg-name="Live TV Kerala" tvg-logo="http://localhost:5350/jtvimage/Live_TV_Kerala.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Live TV Kerala
+http://localhost:5350/live/1966.m3u8
+#EXTINF:-1 tvg-id="1970" tvg-name="Jio Sports 3 HD" tvg-logo="http://localhost:5350/jtvimage/Jio_Sports_3_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Jio Sports 3 HD
+http://localhost:5350/live/1970.m3u8
+#EXTINF:-1 tvg-id="1984" tvg-name="Star Sports 2 Hindi HD" tvg-logo="http://localhost:5350/jtvimage/Sports18_1_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Star Sports 2 Hindi HD
+http://localhost:5350/live/1984.m3u8
+#EXTINF:-1 tvg-id="1985" tvg-name="Star Sports 2 Hindi" tvg-logo="http://localhost:5350/jtvimage/Sports18_1_SD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Star Sports 2 Hindi
+http://localhost:5350/live/1985.m3u8
+#EXTINF:-1 tvg-id="2003" tvg-name="3.0 TV" tvg-logo="http://localhost:5350/jtvimage/3_0_TV.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", 3.0 TV
+http://localhost:5350/live/2003.m3u8
+#EXTINF:-1 tvg-id="2004" tvg-name="Shekinah TV" tvg-logo="http://localhost:5350/jtvimage/Shekinah.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", Shekinah TV
+http://localhost:5350/live/2004.m3u8
+#EXTINF:-1 tvg-id="2031" tvg-name="Fashion India" tvg-logo="http://localhost:5350/jtvimage/Fashion_India.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Fashion India
+http://localhost:5350/live/2031.m3u8
+#EXTINF:-1 tvg-id="2034" tvg-name="NSDC TV" tvg-logo="http://localhost:5350/jtvimage/NSDC_TV.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", NSDC TV
+http://localhost:5350/live/2034.m3u8
+#EXTINF:-1 tvg-id="2045" tvg-name="Auroville TV" tvg-logo="http://localhost:5350/jtvimage/Auroville_TV.png" tvg-language="English" tvg-type="Devotional" group-title="Devotional - English", Auroville TV
+http://localhost:5350/live/2045.m3u8
+#EXTINF:-1 tvg-id="2205" tvg-name="Guruvayur Devaswom" tvg-logo="http://localhost:5350/jtvimage/Guruvayur_Devaswom.png" tvg-language="Malayalam" tvg-type="Devotional" group-title="Devotional - Malayalam", Guruvayur Devaswom
+http://localhost:5350/live/2205.m3u8
+#EXTINF:-1 tvg-id="2230" tvg-name="Jio Specials HD" tvg-logo="http://localhost:5350/jtvimage/Jio_Specials_HD.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Jio Specials HD
+http://localhost:5350/live/2230.m3u8
+#EXTINF:-1 tvg-id="2258" tvg-name="Animax" tvg-logo="http://localhost:5350/jtvimage/Animax.png" tvg-language="English" tvg-type="Entertainment" group-title="Entertainment - English", Animax
+http://localhost:5350/live/2258.m3u8
+#EXTINF:-1 tvg-id="2326" tvg-name="Firstpost" tvg-logo="http://localhost:5350/jtvimage/Firstpost.png" tvg-language="English" tvg-type="News" group-title="News - English", Firstpost
+http://localhost:5350/live/2326.m3u8
+#EXTINF:-1 tvg-id="2328" tvg-name="CyberPeace TV" tvg-logo="http://localhost:5350/jtvimage/CyberPeace_TV.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", CyberPeace TV
+http://localhost:5350/live/2328.m3u8
+#EXTINF:-1 tvg-id="2437" tvg-name="Wild Earth" tvg-logo="http://localhost:5350/jtvimage/Wild_Earth.png" tvg-language="English" tvg-type="Infotainment" group-title="Infotainment - English", Wild Earth
+http://localhost:5350/live/2437.m3u8
+#EXTINF:-1 tvg-id="2686" tvg-name="Jyothishavartha" tvg-logo="http://localhost:5350/jtvimage/Jyothishavartha.png" tvg-language="Malayalam" tvg-type="Devotional" group-title="Devotional - Malayalam", Jyothishavartha
+http://localhost:5350/live/2686.m3u8
+#EXTINF:-1 tvg-id="2687" tvg-name="The Book Channel" tvg-logo="http://localhost:5350/jtvimage/NTBD_Channel.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", The Book Channel
+http://localhost:5350/live/2687.m3u8
+#EXTINF:-1 tvg-id="2766" tvg-name="BRAVE TV" tvg-logo="http://localhost:5350/jtvimage/Brave_TV.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", BRAVE TV
+http://localhost:5350/live/2766.m3u8
+#EXTINF:-1 tvg-id="2775" tvg-name="Grace TV" tvg-logo="http://localhost:5350/jtvimage/Grace_TV.png" tvg-language="English" tvg-type="Devotional" group-title="Devotional - English", Grace TV
+http://localhost:5350/live/2775.m3u8
+#EXTINF:-1 tvg-id="2779" tvg-name="Red Bull TV" tvg-logo="http://localhost:5350/jtvimage/Red_Bull_TV.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Red Bull TV
+http://localhost:5350/live/2779.m3u8
+#EXTINF:-1 tvg-id="2781" tvg-name="CENTA TV" tvg-logo="http://localhost:5350/jtvimage/CENTA_TV.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", CENTA TV
+http://localhost:5350/live/2781.m3u8
+#EXTINF:-1 tvg-id="2782" tvg-name="ABC Australia" tvg-logo="http://localhost:5350/jtvimage/ABC_Australia.png" tvg-language="English" tvg-type="News" group-title="News - English", ABC Australia
+http://localhost:5350/live/2782.m3u8
+#EXTINF:-1 tvg-id="2853" tvg-name="Star Sports 2 Tamil" tvg-logo="http://localhost:5350/jtvimage/Sports18_3.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Star Sports 2 Tamil
+http://localhost:5350/live/2853.m3u8
+#EXTINF:-1 tvg-id="2854" tvg-name="KCM" tvg-logo="http://localhost:5350/jtvimage/KCM.png" tvg-language="English" tvg-type="Entertainment" group-title="Entertainment - English", KCM
+http://localhost:5350/live/2854.m3u8
+#EXTINF:-1 tvg-id="2860" tvg-name="ICMAI-Delhi" tvg-logo="http://localhost:5350/jtvimage/ICAI.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", ICMAI-Delhi
+http://localhost:5350/live/2860.m3u8
+#EXTINF:-1 tvg-id="3011" tvg-name="Lancs TV HD" tvg-logo="http://localhost:5350/jtvimage/Lancs_TV_HD.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Lancs TV HD
+http://localhost:5350/live/3011.m3u8
+#EXTINF:-1 tvg-id="3055" tvg-name="Q Toonz" tvg-logo="http://localhost:5350/jtvimage/qtoonz.png" tvg-language="English" tvg-type="Kids" group-title="Kids - English", Q Toonz
+http://localhost:5350/live/3055.m3u8
+#EXTINF:-1 tvg-id="3084" tvg-name="Taiwan Plus" tvg-logo="http://localhost:5350/jtvimage/Taiwan_Plus.png" tvg-language="English" tvg-type="Entertainment" group-title="Entertainment - English", Taiwan Plus
+http://localhost:5350/live/3084.m3u8
+#EXTINF:-1 tvg-id="3118" tvg-name="DD Swayam Prabha 23" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_23.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 23
+http://localhost:5350/live/3118.m3u8
+#EXTINF:-1 tvg-id="3119" tvg-name="DD Swayam Prabha 24" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_24.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 24
+http://localhost:5350/live/3119.m3u8
+#EXTINF:-1 tvg-id="3120" tvg-name="DD Swayam Prabha 25" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_25.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 25
+http://localhost:5350/live/3120.m3u8
+#EXTINF:-1 tvg-id="3121" tvg-name="DD Swayam Prabha 26" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_26.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 26
+http://localhost:5350/live/3121.m3u8
+#EXTINF:-1 tvg-id="3122" tvg-name="DD Swayam Prabha 27" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_27.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 27
+http://localhost:5350/live/3122.m3u8
+#EXTINF:-1 tvg-id="3123" tvg-name="DD Swayam Prabha 28" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_28.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 28
+http://localhost:5350/live/3123.m3u8
+#EXTINF:-1 tvg-id="3124" tvg-name="DD Swayam Prabha 29" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_29.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 29
+http://localhost:5350/live/3124.m3u8
+#EXTINF:-1 tvg-id="3125" tvg-name="DD Swayam Prabha 30" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_30.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 30
+http://localhost:5350/live/3125.m3u8
+#EXTINF:-1 tvg-id="3126" tvg-name="DD Swayam Prabha 31" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_31.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 31
+http://localhost:5350/live/3126.m3u8
+#EXTINF:-1 tvg-id="3127" tvg-name="DD Swayam Prabha 32" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_32.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 32
+http://localhost:5350/live/3127.m3u8
+#EXTINF:-1 tvg-id="3128" tvg-name="DD Swayam Prabha 33" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_33.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 33
+http://localhost:5350/live/3128.m3u8
+#EXTINF:-1 tvg-id="3129" tvg-name="DD Swayam Prabha 34" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_34.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 34
+http://localhost:5350/live/3129.m3u8
+#EXTINF:-1 tvg-id="3130" tvg-name="DD Swayam Prabha 35" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_35.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 35
+http://localhost:5350/live/3130.m3u8
+#EXTINF:-1 tvg-id="3131" tvg-name="DD Swayam Prabha 36" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_36.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 36
+http://localhost:5350/live/3131.m3u8
+#EXTINF:-1 tvg-id="3132" tvg-name="DD Swayam Prabha 37" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_37.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 37
+http://localhost:5350/live/3132.m3u8
+#EXTINF:-1 tvg-id="3133" tvg-name="DD Swayam Prabha 38" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_38.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 38
+http://localhost:5350/live/3133.m3u8
+#EXTINF:-1 tvg-id="3134" tvg-name="DD Swayam Prabha 39" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_39.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 39
+http://localhost:5350/live/3134.m3u8
+#EXTINF:-1 tvg-id="3135" tvg-name="DD Swayam Prabha 40" tvg-logo="http://localhost:5350/jtvimage/DD_SWAYAM_PRABHA_40.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Swayam Prabha 40
+http://localhost:5350/live/3135.m3u8
+#EXTINF:-1 tvg-id="3136" tvg-name="DD Sathee 1" tvg-logo="http://localhost:5350/jtvimage/DD_SATHEE_1.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Sathee 1
+http://localhost:5350/live/3136.m3u8
+#EXTINF:-1 tvg-id="3137" tvg-name="DD Sathee 2" tvg-logo="http://localhost:5350/jtvimage/DD_SATHEE_2.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Sathee 2
+http://localhost:5350/live/3137.m3u8
+#EXTINF:-1 tvg-id="3138" tvg-name="DD Sathee 3" tvg-logo="http://localhost:5350/jtvimage/DD_SATHEE_3.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Sathee 3
+http://localhost:5350/live/3138.m3u8
+#EXTINF:-1 tvg-id="3139" tvg-name="DD Sathee 4" tvg-logo="http://localhost:5350/jtvimage/DD_SATHEE_4.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Sathee 4
+http://localhost:5350/live/3139.m3u8
+#EXTINF:-1 tvg-id="3140" tvg-name="DD Sathee 5" tvg-logo="http://localhost:5350/jtvimage/DD_SATHEE_5.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Sathee 5
+http://localhost:5350/live/3140.m3u8
+#EXTINF:-1 tvg-id="3141" tvg-name="DD Sathee 6" tvg-logo="http://localhost:5350/jtvimage/DD_SATHEE_6.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Sathee 6
+http://localhost:5350/live/3141.m3u8
+#EXTINF:-1 tvg-id="3142" tvg-name="DD Sathee 7" tvg-logo="http://localhost:5350/jtvimage/DD_SATHEE_7.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Sathee 7
+http://localhost:5350/live/3142.m3u8
+#EXTINF:-1 tvg-id="3145" tvg-name="DD Sathee 8" tvg-logo="http://localhost:5350/jtvimage/DD_SATHEE_8.png" tvg-language="English" tvg-type="Educational" group-title="Educational - English", DD Sathee 8
+http://localhost:5350/live/3145.m3u8
+#EXTINF:-1 tvg-id="3146" tvg-name="All Women's Sports Network" tvg-logo="http://localhost:5350/jtvimage/AWSN.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", All Women's Sports Network
+http://localhost:5350/live/3146.m3u8
+#EXTINF:-1 tvg-id="3151" tvg-name="RKMM TV" tvg-logo="http://localhost:5350/jtvimage/RKMM_TV.png" tvg-language="English" tvg-type="Devotional" group-title="Devotional - English", RKMM TV
+http://localhost:5350/live/3151.m3u8
+#EXTINF:-1 tvg-id="3174" tvg-name="Malyalam Naaptol" tvg-logo="http://localhost:5350/jtvimage/Malyalam_Naaptol.png" tvg-language="Malayalam" tvg-type="Shopping" group-title="Shopping - Malayalam", Malyalam Naaptol
+http://localhost:5350/live/3174.m3u8
+#EXTINF:-1 tvg-id="3184" tvg-name="News Malayalam" tvg-logo="http://localhost:5350/jtvimage/News_Malayalam.png" tvg-language="Malayalam" tvg-type="News" group-title="News - Malayalam", News Malayalam
+http://localhost:5350/live/3184.m3u8
+#EXTINF:-1 tvg-id="3204" tvg-name="Penta TV" tvg-logo="http://localhost:5350/jtvimage/Penta_TV.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Penta TV
+http://localhost:5350/live/3204.m3u8
+#EXTINF:-1 tvg-id="3213" tvg-name="Gusto TV" tvg-logo="http://localhost:5350/jtvimage/Gusto_TV.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Gusto TV
+http://localhost:5350/live/3213.m3u8
+#EXTINF:-1 tvg-id="3215" tvg-name="Vyasa TV" tvg-logo="http://localhost:5350/jtvimage/Vyasa_TV.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Vyasa TV
+http://localhost:5350/live/3215.m3u8
+#EXTINF:-1 tvg-id="3232" tvg-name="Sadhguru Television Dolby" tvg-logo="http://localhost:5350/jtvimage/Sadhguru_Television_HD_Dolby.png" tvg-language="English" tvg-type="Devotional" group-title="Devotional - English", Sadhguru Television Dolby
+http://localhost:5350/live/3232.m3u8
+#EXTINF:-1 tvg-id="3238" tvg-name="Yoga for Beginners" tvg-logo="http://localhost:5350/jtvimage/Yoga_for_Beginners.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Yoga for Beginners
+http://localhost:5350/live/3238.m3u8
+#EXTINF:-1 tvg-id="3240" tvg-name="News X World" tvg-logo="http://localhost:5350/jtvimage/News_X_World.png" tvg-language="English" tvg-type="News" group-title="News - English", News X World
+http://localhost:5350/live/3240.m3u8
+#EXTINF:-1 tvg-id="3243" tvg-name="Pickleball Now" tvg-logo="http://localhost:5350/jtvimage/Pickleball_Now.png" tvg-language="English" tvg-type="Sports" group-title="Sports - English", Pickleball Now
+http://localhost:5350/live/3243.m3u8
+#EXTINF:-1 tvg-id="3247" tvg-name="Manage Stress" tvg-logo="http://localhost:5350/jtvimage/Manage_Stress.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Manage Stress
+http://localhost:5350/live/3247.m3u8
+#EXTINF:-1 tvg-id="3248" tvg-name="Weight Loss Yoga" tvg-logo="http://localhost:5350/jtvimage/Weight_Loss_Yoga.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Weight Loss Yoga
+http://localhost:5350/live/3248.m3u8
+#EXTINF:-1 tvg-id="3249" tvg-name="Guided Meditation" tvg-logo="http://localhost:5350/jtvimage/Guided_Meditation.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Guided Meditation
+http://localhost:5350/live/3249.m3u8
+#EXTINF:-1 tvg-id="3250" tvg-name="Flexibility Yoga" tvg-logo="http://localhost:5350/jtvimage/Flexibility_Yoga.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Flexibility Yoga
+http://localhost:5350/live/3250.m3u8
+#EXTINF:-1 tvg-id="3251" tvg-name="Restful Sleep" tvg-logo="http://localhost:5350/jtvimage/Restful_Sleep.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Restful Sleep
+http://localhost:5350/live/3251.m3u8
+#EXTINF:-1 tvg-id="3252" tvg-name="Muscle Strength" tvg-logo="http://localhost:5350/jtvimage/Muscle_Strength.png" tvg-language="English" tvg-type="Lifestyle" group-title="Lifestyle - English", Muscle Strength
+http://localhost:5350/live/3252.m3u8
+#EXTINF:-1 tvg-id="3286" tvg-name="ZenLIFE by Stingray" tvg-logo="http://localhost:5350/jtvimage/zenlife-zen001-seoul.png" tvg-language="English" tvg-type="Music" group-title="Music - English", ZenLIFE by Stingray
+http://localhost:5350/live/3286.m3u8
+#EXTINF:-1 tvg-id="3287" tvg-name="Holidaycapes by Stingray" tvg-logo="http://localhost:5350/jtvimage/holidayscapes.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Holidaycapes by Stingray
+http://localhost:5350/live/3287.m3u8
+#EXTINF:-1 tvg-id="3288" tvg-name="Movie Music by Stingray" tvg-logo="http://localhost:5350/jtvimage/cmusic-cme004-dhaka.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Movie Music by Stingray
+http://localhost:5350/live/3288.m3u8
+#EXTINF:-1 tvg-id="3289" tvg-name="Qello Concerts by Stingray" tvg-logo="http://localhost:5350/jtvimage/qello-qello001-dhaka.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Qello Concerts by Stingray
+http://localhost:5350/live/3289.m3u8
+#EXTINF:-1 tvg-id="3290" tvg-name="Stingray Djazz" tvg-logo="http://localhost:5350/jtvimage/djazz-djaads-dhaka.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Stingray Djazz
+http://localhost:5350/live/3290.m3u8
+#EXTINF:-1 tvg-id="3293" tvg-name="Panic TV" tvg-logo="http://localhost:5350/jtvimage/capemay-panictv.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", Panic TV
+http://localhost:5350/live/3293.m3u8
+#EXTINF:-1 tvg-id="3313" tvg-name="LOVEWORLD TV" tvg-logo="http://localhost:5350/jtvimage/Love_World.png" tvg-language="English" tvg-type="Devotional" group-title="Devotional - English", LOVEWORLD TV
+http://localhost:5350/live/3313.m3u8
+#EXTINF:-1 tvg-id="3323" tvg-name="Stingray The Spa" tvg-logo="http://localhost:5350/jtvimage/ose-122ads-montreal.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Stingray The Spa
+http://localhost:5350/live/3323.m3u8
+#EXTINF:-1 tvg-id="3324" tvg-name="Stingray Todays K-Pop" tvg-logo="http://localhost:5350/jtvimage/ose-317ads-montreal.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Stingray Todays K-Pop
+http://localhost:5350/live/3324.m3u8
+#EXTINF:-1 tvg-id="3325" tvg-name="Stingray Easy Listening" tvg-logo="http://localhost:5350/jtvimage/ose-137ads-montreal.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Stingray Easy Listening
+http://localhost:5350/live/3325.m3u8
+#EXTINF:-1 tvg-id="3327" tvg-name="Stingray 2000s" tvg-logo="http://localhost:5350/jtvimage/ose-232ads-montreal.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Stingray 2000s
+http://localhost:5350/live/3327.m3u8
+#EXTINF:-1 tvg-id="3345" tvg-name="Superfine Films" tvg-logo="http://localhost:5350/jtvimage/p_supjio.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", Superfine Films
+http://localhost:5350/live/3345.m3u8
+#EXTINF:-1 tvg-id="3346" tvg-name="Yahoo Finance" tvg-logo="http://localhost:5350/jtvimage/Yahoo_Finance.png" tvg-language="English" tvg-type="Business" group-title="Business - English", Yahoo Finance
+http://localhost:5350/live/3346.m3u8
