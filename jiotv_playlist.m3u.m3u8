@@ -1,4 +1,6 @@
 #EXTM3U x-tvg-url="http://localhost:5350/epg.xml.gz"
+#EXTINF:-1 tvg-id="AsianetPlus.in@SD" tvg-logo="https://i.imgur.com/qg1IhV8.png" group-title="Entertainment",Asianet HD
+http://217.20.112.199/asianet/index.m3u8
 #EXTINF:-1 tvg-id="143" tvg-name="CNBC TV18 Prime" tvg-logo="http://localhost:5350/jtvimage/CNBC_Tv18_Prime_HD.png" tvg-language="English" tvg-type="Business" group-title="Business", CNBC TV18 Prime
 http://localhost:5350/live/143.m3u8
 #EXTINF:-1 tvg-id="144" tvg-name="Colors HD" tvg-logo="http://localhost:5350/jtvimage/Colors_HD.png" tvg-language="Hindi" tvg-type="Entertainment" group-title="Entertainment", Colors HD
