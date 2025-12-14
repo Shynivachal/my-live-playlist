@@ -488,7 +488,7 @@ http://localhost:5350/live/3345.m3u8
 #EXTINF:-1 tvg-id="3346" tvg-name="Yahoo Finance" tvg-logo="http://localhost:5350/jtvimage/Yahoo_Finance.png" tvg-language="English" tvg-type="Business" group-title="Business - English", Yahoo Finance
 http://localhost:5350/live/3346.m3u8
 #EXTINF:-1 tvg-id="ts292" tvg-name="ASIANET HD" tvg-logo="https://i.postimg.cc/Y0nBZnsD/favpng-325121f97b7d5e940a1f7a516a745edb.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Asianet HD
-https://live.dinesh29.com.np/stream/jiotvplus/asianethd/master.m3u8
+http://87.255.35.150:18551
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/hi/4/4d/Sony_Pix_new_logo.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", Sony Pix HD
 http://87.255.35.150:18551/live1.ts
 #EXTINF:-1 tvg-id="0000" tvg-name="ASIANET MOVIES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/38/Asianet_Movies_HD.png/revision/latest?cb=20211017153130" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Asianet Movies
