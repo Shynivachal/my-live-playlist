@@ -492,4 +492,4 @@ http://87.255.35.150:18551
 #EXTINF:-1 tvg-logo="https://upload.wikimedia.org/wikipedia/hi/4/4d/Sony_Pix_new_logo.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", Sony Pix HD
 http://87.255.35.150:18551/live1.ts
 #EXTINF:-1 tvg-id="0000" tvg-name="ASIANET MOVIES" tvg-logo="https://static.wikia.nocookie.net/logopedia/images/3/38/Asianet_Movies_HD.png/revision/latest?cb=20211017153130" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Asianet Movies
-https://live.dinesh29.com.np/stream/jiotvplus/asianetmovieshd/master.m3u8
+http://87.255.35.150:18813/
