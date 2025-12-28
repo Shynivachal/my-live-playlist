@@ -483,8 +483,8 @@ http://localhost:5350/live/3324.m3u8
 http://localhost:5350/live/3325.m3u8
 #EXTINF:-1 tvg-id="3327" tvg-name="Stingray 2000s" tvg-logo="http://localhost:5350/jtvimage/ose-232ads-montreal.png" tvg-language="English" tvg-type="Music" group-title="Music - English", Stingray 2000s
 http://localhost:5350/live/3327.m3u8
-#EXTINF:-1 tvg-id="3345" tvg-name="Superfine Films" tvg-logo="http://localhost:5350/jtvimage/p_supjio.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", Superfine Films
-http://localhost:5350/live/3345.m3u8
+#EXTINF:-1 tvg-id="3345" tvg-name="Star Movies" tvg-logo="http://localhost:5350/jtvimage/p_supjio.png" tvg-language="English" tvg-type="Movies" group-title="Movies - English", Star Movies
+https://webtvstream.bhtelecom.ba/hls18/star_movies_1200.m3u8
 #EXTINF:-1 tvg-id="3346" tvg-name="Yahoo Finance" tvg-logo="http://localhost:5350/jtvimage/Yahoo_Finance.png" tvg-language="English" tvg-type="Business" group-title="Business - English", Yahoo Finance
 http://localhost:5350/live/3346.m3u8
 #EXTINF:-1 tvg-id="ts292" tvg-name="ASIANET HD" tvg-logo="https://i.postimg.cc/Y0nBZnsD/favpng-325121f97b7d5e940a1f7a516a745edb.png" tvg-language="Malayalam" tvg-type="Entertainment" group-title="Entertainment - Malayalam", Asianet HD
